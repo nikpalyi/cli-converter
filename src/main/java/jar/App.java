@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 
 /**
  * Reading input file to an executable running JAR
- * https://stackoverflow.com/a/27662742/11889789
+ *
  */
 
 public class App {
