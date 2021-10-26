@@ -1,4 +1,4 @@
-package jar;
+package converter;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,9 +15,9 @@ import java.nio.file.Paths;
  *
  */
 
-public class App {
+public class ConverterApp {
 
-     private static Logger log = LogManager.getLogger(App.class);
+     private static Logger log = LogManager.getLogger(ConverterApp.class);
 
     public static void main( String[] args ) throws IOException {
         URI path = new File("inputData.txt").toURI();
