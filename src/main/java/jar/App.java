@@ -1,5 +1,6 @@
 package jar;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,14 +11,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-/**
- * Reading input file to an executable running JAR
- *
- */
-
+@Slf4j
 public class App {
-
-     private static Logger log = LogManager.getLogger(App.class);
 
     public static void main( String[] args ) throws IOException {
         URI path = new File("inputData.txt").toURI();
