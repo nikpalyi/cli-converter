@@ -2,9 +2,14 @@
 *.class
 sonarIssues.xml
 uiDesigner.xml
-.idea
+idea/
 # Log file
 *.log
+logs/
+log4j/target/
+
+*.xml
+!pom.xml
 
 # BlueJ files
 *.ctxt
